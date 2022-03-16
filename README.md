@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+* e2e/	contains all end to end (e2e) tests of the application written in jasmine and run by protractor
+* node_modules/	 puts all npm modules installed as listed in package.json
+* src/	 All application related file will be store inside it.
+* angular.json	Configuration file for Angular CLI where we set several defaults and also configure what files to be included during project build
+* package.json	node configuration file which contains all dependencies required for Angular
+* tsconfig.json	Typescript configuration file where we can configure compiler options
+* tslint.json	contains linting rules preferred by Angular style guide
